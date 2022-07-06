@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body{
+    background-color: var(--main-bg);
+  }
+}
